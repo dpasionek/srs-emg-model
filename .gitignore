@@ -1,3 +1,6 @@
+# Ignore any Agent files being used
+.agent/
+.github/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

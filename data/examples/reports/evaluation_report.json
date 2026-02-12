@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "window_size": 10,
+    "stride": 5,
+    "sampling_rate": 100.0,
+    "feature_order": [
+      "timestamp",
+      "emg_value",
+      "rms"
+    ]
+  },
+  "splits": {
+    "train": 0,
+    "val": 0,
+    "test": 18
+  },
+  "seed": 42,
+  "labels": {
+    "count": 15,
+    "mapping": [
+      {
+        "index": 0,
+        "finger": 1,
+        "position": 1
+      },
+      {
+        "index": 1,
+        "finger": 1,
+        "position": 2
+      },
+      {
+        "index": 2,
+        "finger": 1,
+        "position": 3
+      },
+      {
+        "index": 3,
+        "finger": 2,
+        "position": 1
+      },
+      {
+        "index": 4,
+        "finger": 2,
+        "position": 2
+      },
+      {
+        "index": 5,
+        "finger": 2,
+        "position": 3
+      },
+      {
+        "index": 6,
+        "finger": 3,
+        "position": 1
+      },
+      {
+        "index": 7,
+        "finger": 3,
+        "position": 2
+      },
+      {
+        "index": 8,
+        "finger": 3,
+        "position": 3
+      },
+      {
+        "index": 9,
+        "finger": 4,
+        "position": 1
+      },
+      {
+        "index": 10,
+        "finger": 4,
+        "position": 2
+      },
+      {
+        "index": 11,
+        "finger": 4,
+        "position": 3
+      },
+      {
+        "index": 12,
+        "finger": 5,
+        "position": 1
+      },
+      {
+        "index": 13,
+        "finger": 5,
+        "position": 2
+      },
+      {
+        "index": 14,
+        "finger": 5,
+        "position": 3
+      }
+    ]
+  },
+  "metrics": {
+    "accuracy": 0.8333,
+    "precision": 0.1117,
+    "recall": 0.1111,
+    "f1": 0.1111,
+    "confusion_matrix": [
+      [8, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [2, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ]
+  }
+}
